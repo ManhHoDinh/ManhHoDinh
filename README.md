@@ -39,17 +39,18 @@
 <!-- https://icons8.com -->
 <div align="center">
   <a href="https://www.facebook.com/manhhodinh03" target="blank">
-    <img src="https://icons8.com/icon/118501/facebook" alt="ManhHoDinh-facebook" />
+    <img  width="90" height="90"src="https://img.icons8.com/nolan/512/facebook-new.png" alt="ManhHoDinh-facebook" />
   </a>
  
   <a href="https://www.linkedin.com/in/manhhodinh/" target="blank">
-    <img src="https://img.icons8.com/nolan/512/linkedin-circled.png" alt="ManhHoDinh-linkedin" />
+    <img  width="90" height="90" src="https://img.icons8.com/nolan/512/linkedin-circled.png" alt="ManhHoDinh-linkedin" />
   </a>
-  <a href="https://www.instagram.com/dinhmanh11/" target="blank">
-    <img src="https://img.icons8.com/nolan/512/instagram-new.png" alt="ManhHoDinh-instagram" />
+  <a  width="90" height="90" href="https://www.instagram.com/dinhmanh11/" target="blank">
+    <img 
+      width="90" height="90"src="https://img.icons8.com/nolan/512/instagram-new.png" alt="ManhHoDinh-instagram" />
   </a>
   <a href="mailto:hodinhmanh2003@gmail.com" target="top">
-    <img src="https://img.icons8.com/nolan/512/filled-message.png" alt="ManhHoDinh-email" />
+    <img  width="90" height="90" src="https://img.icons8.com/nolan/512/filled-message.png" alt="ManhHoDinh-email" />
   </a>
 </div>
 
