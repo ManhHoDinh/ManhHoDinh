@@ -43,13 +43,13 @@
   </a>
  
   <a href="https://www.linkedin.com/in/manhhodinh/" target="blank">
-    <img src="https://icons8.com/icon/IXUU4h36YfmO/linkedin-circled" alt="ManhHoDinh-linkedin" />
+    <img src="https://img.icons8.com/nolan/512/linkedin-circled.png" alt="ManhHoDinh-linkedin" />
   </a>
   <a href="https://www.instagram.com/dinhmanh11/" target="blank">
-    <img src="https://icons8.com/icon/43625/instagram" alt="ManhHoDinh-instagram" />
+    <img src="https://img.icons8.com/nolan/512/instagram-new.png" alt="ManhHoDinh-instagram" />
   </a>
   <a href="mailto:hodinhmanh2003@gmail.com" target="top">
-    <img src="https://icons8.com/icon/k5TOe_wo6JDZ/envelope" alt="ManhHoDinh-email" />
+    <img src="https://img.icons8.com/nolan/512/filled-message.png" alt="ManhHoDinh-email" />
   </a>
 </div>
 
