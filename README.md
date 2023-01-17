@@ -38,14 +38,14 @@
 <br>
 <!-- https://icons8.com -->
 <div align="center">
-  <a href="https://www.facebook.com/manhhodinh03" target="blank">
+  <a href="https://www.facebook.com/manhhodinh03" target="_blank">
     <img  width="90" height="90"src="https://img.icons8.com/nolan/512/facebook-new.png" alt="ManhHoDinh-facebook" />
   </a>
  
-  <a href="https://www.linkedin.com/in/manhhodinh/" target="blank">
+  <a href="https://www.linkedin.com/in/manhhodinh/" target="_blank">
     <img  width="90" height="90" src="https://img.icons8.com/nolan/512/linkedin-circled.png" alt="ManhHoDinh-linkedin" />
   </a>
-  <a  width="90" height="90" href="https://www.instagram.com/dinhmanh11/" target="blank">
+  <a  width="90" height="90" href="https://www.instagram.com/dinhmanh11/" target="_blank">
     <img 
       width="90" height="90"src="https://img.icons8.com/nolan/512/instagram-new.png" alt="ManhHoDinh-instagram" />
   </a>
