@@ -30,7 +30,7 @@
  -->
  </a>
   <a href="#" title="ManhHoDinh">
-    <img align="center" width="415" height="415" src="https://github-readme-stats.vercel.app/api?username=ManhHoDinh&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
+    <img align="center" width="415" src="https://github-readme-stats.vercel.app/api?username=ManhHoDinh&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
   </a>
 </div>
 
