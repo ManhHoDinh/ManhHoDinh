@@ -46,7 +46,7 @@
   <a href="https://www.linkedin.com/in/manhhodinh/" target="_blank" rel="noopener noreferrer">
     <img  width="90" height="90" src="https://img.icons8.com/nolan/512/linkedin-circled.png" alt="ManhHoDinh-linkedin" />
   </a>
-  <a  width="90" height="90" href="https://www.instagram.com/dinhmanh11/" target="_blank" rel="noopener noreferrer">
+  <a  width="90" height="90" href="https://www.instagram.com/manhhodinh.03/" target="_blank" rel="noopener noreferrer">
     <img 
       width="90" height="90"src="https://img.icons8.com/nolan/512/instagram-new.png" alt="ManhHoDinh-instagram" />
   </a>
