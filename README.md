@@ -1,4 +1,3 @@
-<!-- Trungquandev -->
 <a href="#" target="_blank">
   <img src="svg/ManhHoDinh.svg" width="1200" alt="ManhHoDinh-official" />
 </a>
@@ -21,6 +20,10 @@
 <span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="25" /></span>
 &nbsp;
 <br>
+ <b>Contract: </b>
+ <a href="https://www.facebook.com/manhhodinh03" target="_blank" rel="noopener noreferrer">
+ https://manhhodinh.github.io/CV/cv.pdf 
+ </a>
 <h2 align="center">🔥 GitHub Stats 🔥</h2>
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <br>
