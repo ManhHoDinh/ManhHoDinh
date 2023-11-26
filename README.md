@@ -1,4 +1,4 @@
-<b>Contract: </b>
+<b>Contact: </b>
  <a href="https://www.facebook.com/manhhodinh03" target="_blank" rel="noopener noreferrer">
  https://manhhodinh.github.io/CV/cv.pdf 
  </a>
