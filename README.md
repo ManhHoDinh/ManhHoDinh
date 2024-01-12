@@ -1,6 +1,6 @@
-<b>Contact: </b>
- <a href="https://www.facebook.com/manhhodinh03" target="_blank" rel="noopener noreferrer">
- https://manhhodinh.github.io/CV/cv.pdf 
+<b>Portfolio: http://manhhodinh.id.vn/</b>
+ <a href="https://manhhodinh.id.vn" target="_blank" rel="noopener noreferrer">
+ https://manhhodinh.id.vn
  </a>
 
 <a href="#" target="_blank">
