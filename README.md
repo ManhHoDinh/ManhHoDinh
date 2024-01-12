@@ -1,8 +1,5 @@
 <b>Portfolio: http://manhhodinh.id.vn/</b>
- <a href="https://manhhodinh.id.vn" target="_blank" rel="noopener noreferrer">
- https://manhhodinh.id.vn
- </a>
-
+ 
 <a href="#" target="_blank">
   <img src="svg/ManhHoDinh.svg" width="1200" alt="ManhHoDinh-official" />
 </a>
