@@ -1,5 +1,8 @@
 <b>Portfolio: http://manhhodinh.id.vn/</b>
- 
+</br>
+</br>
+ ![](https://komarev.com/ghpvc/?username=manhhodinh)
+
 <a href="#" target="_blank">
   <img src="svg/ManhHoDinh.svg" width="1200" alt="ManhHoDinh-official" />
 </a>
