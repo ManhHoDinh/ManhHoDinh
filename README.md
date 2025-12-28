@@ -9,19 +9,17 @@
   <li><a href="https://ieeexplore.ieee.org/document/10814214">IEEE Xplore</a> | <a href="https://ami.gov.vn/wp-content/uploads/2024/11/TA03-2-compressed.pdf">PDF</a>| <a href="https://github.com/ManhHoDinh/Safe-Move/tree/main/AI-Tranning/README.md">AI Guide</a> synthetic dataset of 7,411 images</li>
   <li>Five-Good Student · Vietnam Electricity Scholarship</li>
 </ul>
-
 📧 Email: manhhodinh.work@gmail.com  
-💼 LinkedIn: https://www.linkedin.com/in/manhhodinh/  
-
-<!-- Snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManhHoDinh/ManhHoDinh/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/ManhHoDinh/ManhHoDinh/output/github-contribution-grid-snake.svg" />
-</picture>
+💼 LinkedIn: https://www.linkedin.com/in/manhhodinh/ 
+<a href=#><img src="contributions.svg"></a>
 
 &nbsp;![](https://komarev.com/ghpvc/?username=manhhodinh&color=brightgreen)
-
-<p>&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=manhhodinh&show_icons=true&rank_icon=github&locale=en" alt="manhhodinh" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manhhodinh&layout=compact&hide_border=true&&langs_count=10&show_icons=true&theme=transparent" />
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=manhhodinh&show_icons=true&rank_icon=github&locale=en" alt="manhhodinh" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manhhodinh&layout=compact&hide_border=true&&langs_count=10&show_icons=true&theme=transparent" />
 </p>
+
+
+
+
+
+
