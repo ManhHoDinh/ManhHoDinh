@@ -1,1 +1,28 @@
+name: auto generate snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+
+jobs:
+  commit:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: make a change
+        run: |
+          echo "update $(date)" >> log.txt
+
+      - name: commit & push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "chore: auto commit $(date)" || echo "no changes"
+          git push
 
