@@ -1,36 +1,43 @@
 name: Auto commit
 
 on:
-
   push:
     branches:
       - main
-      
   schedule:
-  - cron: "0 7,9,11 * * 1,3" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+    - cron: "0 7,9,11 * * *" # Runs at 07:00, 09:00, 11:00 UTC every day
 
 jobs:
   auto_commit:
     runs-on: ubuntu-latest
-    steps:
-      - name: DEBUG 
-        run: echo "::debug::Ref = ${{github.ref}}"
-      - uses: actions/checkout@v3      
-        with:
-         persist-credentials: false
-         fetch-depth: 0
 
-      - name: Modify last update
+    steps:
+      - name: Debug Ref
+        run: echo "::debug::Ref = ${{ github.ref }}"
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Modify LAST_UPDATED file
         run: |
-          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
-          echo $d > LAST_UPDATED
-          
+          d=$(date '+%Y-%m-%dT%H:%M:%SZ')
+          echo "$d" > LAST_UPDATED
+
       - name: Commit changes
         run: |
           git config --local user.email "21522327@gm.uit.edu.vn"
           git config --local user.name "manhhodinh"
           git add -A
-          
+
+          # Prevent empty commits
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
           arr[0]="chore(bot): 😂 auto commit"
           arr[1]="chore(bot): 😱 auto commit"
           arr[2]="chore(bot): 👿 auto commit"
@@ -41,13 +48,9 @@ jobs:
           arr[7]="chore(bot): 🤖 auto commit"
           arr[8]="chore(bot): 🟩 auto commit"
           arr[9]="chore(bot): 👻 auto commit"
-          
-          rand=$[$RANDOM % ${#arr[@]}]
-          
+
+          rand=$((RANDOM % ${#arr[@]}))
           git commit -m "${arr[$rand]}"
-          
-      - name: GitHub Push
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          directory: "."
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push changes
+        run: git push origin main
