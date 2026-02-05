@@ -1,0 +1,69 @@
+name: Auto commit
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 7,9,11 * * *" # 07:00, 09:00, 11:00 UTC mỗi ngày
+
+# Chống chạy song song gây conflict
+concurrency:
+  group: auto-commit-main
+  cancel-in-progress: false
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Debug Ref
+        run: echo "::debug::Ref = ${{ github.ref }}"
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      # ✅ PULL TRƯỚC khi modify
+      - name: Pull latest changes
+        run: |
+          git pull origin main
+
+      - name: Modify LAST_UPDATED file
+        run: |
+          d=$(date '+%Y-%m-%dT%H:%M:%SZ')
+          echo "$d" > LAST_UPDATED
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "21522327@gm.uit.edu.vn"
+          git config --local user.name "manhhodinh"
+          git add -A
+
+          # Prevent empty commits
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          arr=(
+            "chore(bot): 😂 auto commit"
+            "chore(bot): 😱 auto commit"
+            "chore(bot): 👿 auto commit"
+            "chore(bot): 💩 auto commit"
+            "chore(bot): 🙏 auto commit"
+            "chore(bot): 🙈 auto commit"
+            "chore(bot): 🐐 auto commit"
+            "chore(bot): 🤖 auto commit"
+            "chore(bot): 🟩 auto commit"
+            "chore(bot): 👻 auto commit"
+          )
+
+          rand=$((RANDOM % ${#arr[@]}))
+          git commit -m "${arr[$rand]}"
+
+      - name: Push changes
+        run: |
+          git push origin main
