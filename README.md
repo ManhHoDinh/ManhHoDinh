@@ -4,7 +4,7 @@
 
 <li>Software Engineer @ Danieli Group | UIT – VNUHCM Graduate</li>
   <li>Passionate about AI, backend systems, and smart city solutions</li>
-  <li><a href="https://github.com/ManhHoDinh/Safe-Move">Safe-Move</a> – AI for Traffic Monitoring of 600+ Cameras in Ho Chi Minh City, Navigations and Hazard Alerting in Flood Conditions</li>
+ 
   <li>Windou – AI waste classification &amp; carbon credit (🥇 Top 1 UNESCO Clubs Worldwide Youth Multimedia Competition 2024, Top 30/300 KAWAI Startup 2024 by Finance Trade University, Semi-final at Runway Startup 2024 by Danang Economic University)</li>
   <li><a href="https://ieeexplore.ieee.org/document/10814214">IEEE Xplore</a> | <a href="https://ami.gov.vn/wp-content/uploads/2024/11/TA03-2-compressed.pdf">PDF</a>| <a href="https://github.com/ManhHoDinh/Safe-Move/tree/main/AI-Tranning/README.md">AI Guide</a> synthetic dataset of 7,411 images</li>
   <li>Five-Good Student · Vietnam Electricity Scholarship</li>
